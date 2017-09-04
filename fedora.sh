@@ -32,10 +32,6 @@ case "$1" in
 esac
 
 
-# install necessary packages
-
-apt update && apt install proot tar -y
-
 # get the docker image
 
 mkdir ~/fedora
